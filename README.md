@@ -17,7 +17,13 @@ The project is designed to be relatively easy to build. No specialized equipment
 The modification adds full Bluetooth aptX and A2DP support by using the QCC3008 Chipset. It converts the DT 770 to a fully functional Bluetoooth headset including a microphone back channel and AVRCP controls. (Play/Pause/Vol+/Vol-/Fwrd/Back)
 It also adds USB-C battery charging and USB Audio transport. So the Headphones can still be used wired with a USB-C cable.
 
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/front.jpg "PCB")
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/back.jpg "PCB")
+
+
+
 The assembly guide can be found in the documentation folder.
+
 
 ### Disclaimer
 

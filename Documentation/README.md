@@ -33,6 +33,7 @@ Parts:
 + solder the battery
 + assemble everything
 
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/multiple.jpg "PCBs")
 
 # Programming
 Solder a 1,27mm Pin header to some wires. To program the PCB just plug the pin header into the PCB and hold it on an angle to make contact. 
@@ -62,7 +63,11 @@ Even a 100mAh cell will give good batter runtime of ~ 5h depending on listening 
 A protected cell isn't necessary here as the circuit already includes short circuit, over charge and over discharge protection. 
 The current PCB doesn't feature a battery NTC to halt charging at extreme temperatures. So make sure to only charge in room temp environments. (or change the PCB and software to include it)
 
-# Disassembly
+
+
+## Disassembly
+###### Attention! The pictures show revision 1 of all the parts. The microphone placement and pcb changed a little. The guide still works the same.
+
 
 ![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/dissassembly.jpg "Disassembly")
 
@@ -73,7 +78,7 @@ Remove both cables from the cup by pulling the metal clips from the strain reliv
 The left Earcup should now be completely free.
 Keep all the parts safe except for the Audio input wire. It can be discarded as its not needed anymore.
 
-# Cup modifications
+## Cup modifications
 
 Attach the printed drill guide by sliding it into the bottom hole (the one where the audio cable used to be).
 
@@ -85,7 +90,54 @@ Drill the 2mm microphone hole first. Its location isnt super critical. Keep the 
 
 Drill the remaining 3 holes. Make sure to keep the guide aligned. Its easy with a pin vice but a battery powered drill works too.
 
+You should end up with 4 clean holes afterwards. 
+
 ![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/drilling_done.jpg "Drilling Done")
+
+## Microphone
+
+Glue the printed Mic holder into the ear cup centered over the drilled 2mm hole. Use the angled face on the print to align the holder. Make sure to not fill the 2mm hole or the printed part. Just a little glue on the outside is all thats needed. 
+
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/microphone.jpg "microphone")
+
+Solder 50mm wire to the Mic. I used color coded flat ribbon but everything works. You can even use a bit of the discarded audio input wire. 
+
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/Micsoldered.jpg "microphone soldered")
+
+Press the mic into the printed holder and seal the backside with hotglue.
+
+## Lightpipe
+
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/lightguide.jpg "lightguide")
+
+###### Use translucent Hotglue!
+Apply two small drops of hot glue to the LEDs next to the USB-C connector. Press the lightpipe into it and keep it aliged to the PCB edge while the glue is still warm.
+
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/glued.jpg "glued")
+
+Sqeeze out left and right of the connector doesnt matter and is expected. It wont interfere so dont worry about it.
+
+## Glue the PCB into the earcups
+
+Slide the PCB into the housing. Start with the upper button and work your way towards the USB connector. 
+
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/glueIn.jpg "PCB glued")
+
+Apply two small drops of hot glue to keep it in place. Make sure the board is aligned while the glue hardens. 
+Repeatedly click the buttons to make sure they spring back. If the board isn't aligned properly, the button may stay stuck!
+
+## Solder the wires 
+
+![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/finished.jpg "Done")
+
+Attach the battery last. The board goes live when you do so solder the drivers and microphone first to avoid shorts.
+
+Now you are almost done. Close the headphones up - same as disassembly but in reverse ;)
+Check for interference by checking if the driver sits flush and doesnt apply force to anything. Make sure all wires are where they belong and clip the ring back in. 
+
+I found it easiest to twist the ear cushions onto the rim. 
+
+
 
 
 

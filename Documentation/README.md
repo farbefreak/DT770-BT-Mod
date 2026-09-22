@@ -66,15 +66,15 @@ The current PCB doesn't feature a battery NTC to halt charging at extreme temper
 # LED Indicators
 There are 3 LEDs to display the current status Red/Green/Blue. The light pipe makes them visible on the USB-C port.
 Everything here can be configured according to your liking. The current config file results in the following behaviour:
-Red LED -> shows battery status and charging status. When the battery state is lower than 10%, the red lights starts pulsing. When charging, the red light is solid.
-Blue LED -> shows Bluetooth availability, when no bluetooth device is connected this light is flashing
-Green LED -> shows connection and charging status, when a Bluetooth device is connected this LED fades slowly. When a device is sending audio, this light fades fast. When the battery is fully charged, this light turns solid.
+* Red LED -> shows battery status and charging status. When the battery state is lower than 10%, the red lights starts pulsing. When charging, the red light is solid.
+* Blue LED -> shows Bluetooth availability, when no bluetooth device is connected this light is flashing
+* Green LED -> shows connection and charging status, when a Bluetooth device is connected this LED fades slowly. When a device is sending audio, this light fades fast. When the battery is fully charged, this light turns solid.
 
 # Button functions
 The three buttons can be reconfigured. Current setup reacts like this:
-Upper button -> "single click" Volume increase, "click and hold" Volume increase constantly, "Double click" next title
-Upper button -> "single click" play/pause, "click and hold" power off/on, "Double click" enter bluetooth peering
-Lower button -> "single click" Volume decrease, "click and hold" Volume decrease constantly, "Double click" last title
+* Upper button -> "single click" Volume increase, "click and hold" Volume increase constantly, "Double click" next title
+* Upper button -> "single click" play/pause, "click and hold" power off/on, "Double click" enter bluetooth peering
+* Lower button -> "single click" Volume decrease, "click and hold" Volume decrease constantly, "Double click" last title
 
 
 ## Disassembly

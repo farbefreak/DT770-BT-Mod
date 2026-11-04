@@ -3,6 +3,7 @@ This modification adds Bluetooth, USB-C charging and Audio support to DT-770 Pro
 
 
 A DIY hardware modification for Beyerdynamic headphones.
+
 The assembly guide can be found in the documentation folder. (Including many pictures!)
 
 

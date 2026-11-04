@@ -40,21 +40,8 @@ A RGB LED shows the state:
 ![alt text](https://github.com/farbefreak/DT770-BT-Mod/blob/main/Documentation/images/back.jpg "PCB")
 
 
-
-## Why the full firmware is not included
-
-The firmware is based on Qualcomm ADK The ADK source code is "Confidential and Proprietary" therefore i can't redistribute it, so neither the source code nor a finished firmware file can be published here.
-
-## Minimal configuration (works without building anything)
-
-If you don't have the ADK, you can still get most of the way there. The repository includes a minimal configuration that works out of the box and provides almost all of the features above.
-
-It comes with known bugs:
-
-- **No battery level.** The battery percentage is not shown on your phone or PC.
-- **Delay after pause.** When you pause and resume, the music starts again after a 1s delay, because the audio connection is not kept open. (really annoying while skipping in videos)
-- **Delay switching Multipoint.** Switching connected devices takes a while.
-- **LED inconsistency** LED state display sometimes buggy because original firmware does not reset timers right.
+Have fun building!
+If you need any assistance or have issue just send me an eMail [farbe.schwarz@gmx.de](mailto:farbe.schwarz@gmx.de) or leave a github issue.
 
 
 ### Disclaimer
@@ -64,10 +51,24 @@ This project involves modification of electronic equipment. The author provides 
 The author assumes no responsibility for damage to headphones, batteries, electronic components, personal property or persons resulting from the use, modification, manufacture or installation of this project.
 Use and modification of the project is entirely at the your own risk.
 
+## Why the full firmware is not included
+
+The firmware is based on Qualcomm ADK The ADK source code is "Confidential and Proprietary" therefore i can't redistribute it, so neither the source code nor a finished firmware file can be published here.
+
+## Minimal configuration
+
+The repository includes a minimal configuration that works out of the box and provides almost all of the features above.
+You only need this if you flash the Bluetooth modules yourself.
+
+It sadly has some known issues:
+
+- **No battery level.** The battery percentage is not shown on your phone or PC.
+- **Delay after pause.** When you pause and resume, the music starts again after a 1s delay, because the audio connection is not kept open. (really annoying while skipping in videos)
+- **Delay switching Multipoint.** Switching connected devices takes a while.
+- **LED inconsistency** LED state display sometimes buggy because original firmware does not reset timers right.
+
 ### License
 
 This project is available for personal and non-commercial use.
 You are free to study, build and modify the project for your own personal use.
 Commercial manufacture, sale or distribution of the project or derivatives is not permitted without explicit permission from the author.
-
-Have fun building!

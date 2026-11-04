@@ -7,7 +7,7 @@
 	(title_block
 		(title "DT770 Bluetooth Mod")
 		(date "2026-09-21")
-		(rev "V2.0")
+		(rev "V2.1")
 		(company "Stephan Schwarz")
 	)
 	(lib_symbols

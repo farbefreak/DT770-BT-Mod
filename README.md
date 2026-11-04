@@ -1,4 +1,4 @@
-This modification adds Bluetooth, USB-C charging and Audio support to DT-770 Pro Headsets from beyerdynamic.
+This modification adds Bluetooth, USB-C charging and Audio support to DT-770 Pro Headsets from Beyerdynamic.
 ======
 
 

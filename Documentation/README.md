@@ -16,7 +16,7 @@ Tools you need:
 * CSR USB SPI Programmer - search for CSR USB-SPI programmer on aliexpress or use this project: https://github.com/lorf/csr-spi-ftdi
 
 Parts:
-* Assembled PCB including QCC3008 - QCC3008 on module can be brought on aliexpress, search for BTM306 
+* Assembled PCB including QCC3008 - QCC3008 on module can be brought on aliexpress, search for BTM308
 * Lithium battery (see below what to choose)
 * 6mm Microphone capsule
 * DT 770 headphones
